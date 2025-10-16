@@ -1,3 +1,14 @@
+---
+title: Zak's IT Support - AI Business Assistant
+emoji: 🖥️
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "4.0.0"
+app_file: app.py
+pinned: false
+---
+
 # Zak's IT Support - Agent-Powered Business Assistant
 
 An AI-powered chatbot that represents Zak's IT Support business, built with OpenAI API and Gradio.
