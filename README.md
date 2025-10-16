@@ -45,12 +45,7 @@ pip install -r requirements.txt
 
 ### 2. Configure API Key
 
-1. Copy `.env.example` to `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-
-2. Edit `.env` and replace `your-openai-api-key-here` with your actual OpenAI API key:
+1. Create and edit `.env` and replace `your-openai-api-key-here` with your actual OpenAI API key:
    ```
    OPENAI_API_KEY=sk-...your-key-here...
    ```
@@ -131,12 +126,9 @@ The application creates two log files:
 
 ## 🌐 Deployment (Bonus)
 
-To deploy on HuggingFace Spaces:
+Deployed on HuggingFace Spaces:
 
-1. Create a new Space on HuggingFace
-2. Upload all files including `app.py`
-3. Add your OpenAI API key as a Space secret
-4. The Space will automatically run `app.py`
+https://huggingface.co/spaces/zakarialabban04/zak-it-support-chatbot
 
 ## 📄 Assignment Requirements
 
